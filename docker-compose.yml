@@ -3,7 +3,7 @@ version: '3'
 services:
     nodejs-app:
         build:
-          context: ./nodedocker_app
+          context: ./nodeapp
         container_name: nodejsserver
         hostname: nodejsserver
         ports:
